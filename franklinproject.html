@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Background</title>
+    <style>
+        body {
+            background-color: #89CFF0;
+            color: white;
+        }
+       <title>Space Between Elements</title>
+    <style>
+        /* Add some space between elements using margins */
+        .space {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the team!</h1>
+    <p>Tell us about yourself.</p>
+</body>
+<form>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">-- Select --</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Questionnaire</legend>
+    <p>How often do you exercise?</p>
+    <label><input type="radio" name="exercise" value="daily" required> Daily</label><br>
+    <label><input type="radio" name="exercise" value="weekly"> Weekly</label><br>
+    <label><input type="radio" name="exercise" value="monthly"> Monthly</label><br>
+    <label><input type="radio" name="exercise" value="never"> Never</label><br>
+    <p>What is your favorite color?</p>
+    <label><input type="checkbox" name="color" value="red"> Red</label><br>
+    <label><input type="checkbox" name="color" value="blue"> Blue</label><br>
+    <label><input type="checkbox" name="color" value="green"> Green</label><br>
+    <label><input type="checkbox" name="color" value="yellow"> Yellow</label><br>
+    <p>What is your favorite food?</p>
+    <label><input type="text" name="food" required></label>
+  </fieldset>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
